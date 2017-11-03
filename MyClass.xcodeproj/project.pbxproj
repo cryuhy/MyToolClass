@@ -15,6 +15,7 @@
 		4F50DA611FAC1AEC00CEAE1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F50DA601FAC1AEC00CEAE1C /* main.m */; };
 		4F50DA6B1FAC1AEC00CEAE1C /* MyClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F50DA6A1FAC1AEC00CEAE1C /* MyClassTests.m */; };
 		4F50DA761FAC1AEC00CEAE1C /* MyClassUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F50DA751FAC1AEC00CEAE1C /* MyClassUITests.m */; };
+		4F50DA861FAC1BE600CEAE1C /* NSArray+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F50DA851FAC1BE600CEAE1C /* NSArray+Validate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4F50DA711FAC1AEC00CEAE1C /* MyClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F50DA751FAC1AEC00CEAE1C /* MyClassUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClassUITests.m; sourceTree = "<group>"; };
 		4F50DA771FAC1AEC00CEAE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F50DA841FAC1BE600CEAE1C /* NSArray+Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Validate.h"; sourceTree = "<group>"; };
+		4F50DA851FAC1BE600CEAE1C /* NSArray+Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Validate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		4F50DA501FAC1AEC00CEAE1C /* MyClass */ = {
 			isa = PBXGroup;
 			children = (
+				4F50DA831FAC1BB300CEAE1C /* NSArray+Validate */,
 				4F50DA511FAC1AEC00CEAE1C /* AppDelegate.h */,
 				4F50DA521FAC1AEC00CEAE1C /* AppDelegate.m */,
 				4F50DA541FAC1AEC00CEAE1C /* ViewController.h */,
@@ -130,6 +134,15 @@
 				4F50DA771FAC1AEC00CEAE1C /* Info.plist */,
 			);
 			path = MyClassUITests;
+			sourceTree = "<group>";
+		};
+		4F50DA831FAC1BB300CEAE1C /* NSArray+Validate */ = {
+			isa = PBXGroup;
+			children = (
+				4F50DA841FAC1BE600CEAE1C /* NSArray+Validate.h */,
+				4F50DA851FAC1BE600CEAE1C /* NSArray+Validate.m */,
+			);
+			path = "NSArray+Validate";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			files = (
 				4F50DA561FAC1AEC00CEAE1C /* ViewController.m in Sources */,
 				4F50DA611FAC1AEC00CEAE1C /* main.m in Sources */,
+				4F50DA861FAC1BE600CEAE1C /* NSArray+Validate.m in Sources */,
 				4F50DA531FAC1AEC00CEAE1C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
